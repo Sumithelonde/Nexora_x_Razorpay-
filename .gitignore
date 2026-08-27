@@ -1,0 +1,58 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# =========================
+# Secrets / Environment
+# =========================
+.env
+.env.*
+!.env.example
+
+Practice/.env
+frontend/.env.local
+
+# Keys / certificates
+*.pem
+*.key
+
+# =========================
+# Node / Next.js
+# =========================
+node_modules/
+.next/
+out/
+
+# =========================
+# Logs / Cache
+# =========================
+*.log
+logs/
+.cache/
+
+# =========================
+# Editors / OS
+# =========================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Obsolete root Alembic copy
+/alembic/
+/alembic.ini
+/Untitled-1.md
+/frontend/src/
+/Practice/core/apis/schema/response/gowth_agent_response.py

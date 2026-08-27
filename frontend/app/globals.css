@@ -1,0 +1,277 @@
+* {
+  box-sizing: border-box;
+}
+
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+}
+
+
+body {
+  background: #fafafa;
+  color: #111111;
+
+  font-family:
+    Arial,
+    Helvetica,
+    sans-serif;
+
+  -webkit-font-smoothing:
+    antialiased;
+}
+
+
+button,
+input {
+  font: inherit;
+}
+
+
+a {
+  color: inherit;
+}
+
+
+/* -------------------------------- */
+/* Authentication                    */
+/* -------------------------------- */
+
+
+.auth-page {
+  min-height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 24px;
+
+  background: #fafafa;
+}
+
+
+.auth-card {
+  width: 100%;
+  max-width: 390px;
+
+  background: #ffffff;
+
+  border: 1px solid #e8e8e8;
+  border-radius: 18px;
+
+  padding: 36px;
+
+  box-shadow:
+    0 8px 30px rgba(0,
+      0,
+      0,
+      0.04);
+}
+
+
+.auth-brand {
+  width: 42px;
+  height: 42px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: #111111;
+  color: #ffffff;
+
+  border-radius: 10px;
+
+  font-size: 14px;
+  font-weight: 700;
+
+  margin-bottom: 30px;
+}
+
+
+.auth-card h1 {
+  margin: 0;
+
+  font-size: 28px;
+  font-weight: 600;
+
+  letter-spacing: -0.7px;
+}
+
+
+.auth-subtitle {
+  margin:
+    8px 0 30px;
+
+  color: #777777;
+
+  font-size: 15px;
+}
+
+
+.auth-form {
+  display: grid;
+
+  gap: 20px;
+}
+
+
+.field {
+  display: grid;
+
+  gap: 8px;
+}
+
+
+.field label {
+  font-size: 13px;
+
+  font-weight: 500;
+
+  color: #444444;
+}
+
+
+.field input {
+  width: 100%;
+
+  padding:
+    13px 14px;
+
+  background: #ffffff;
+
+  border:
+    1px solid #dddddd;
+
+  border-radius: 9px;
+
+  color: #111111;
+
+  outline: none;
+
+  transition:
+    border-color 0.15s ease;
+}
+
+
+.field input::placeholder {
+  color: #aaaaaa;
+}
+
+
+.field input:focus {
+  border-color: #111111;
+}
+
+
+.auth-button {
+  width: 100%;
+
+  margin-top: 4px;
+
+  padding:
+    13px 16px;
+
+  border: none;
+
+  border-radius: 9px;
+
+  background: #111111;
+
+  color: #ffffff;
+
+  font-weight: 500;
+
+  cursor: pointer;
+
+  transition:
+    opacity 0.15s ease;
+}
+
+
+.auth-button:hover {
+  opacity: 0.88;
+}
+
+
+.auth-button:disabled {
+  cursor: not-allowed;
+
+  opacity: 0.55;
+}
+
+
+.auth-error {
+  padding: 11px 12px;
+
+  background: #fff5f5;
+
+  border:
+    1px solid #ffd7d7;
+
+  border-radius: 8px;
+
+  color: #c62828;
+
+  font-size: 13px;
+}
+
+
+.auth-links {
+  margin-top: 28px;
+
+  padding-top: 22px;
+
+  border-top:
+    1px solid #eeeeee;
+
+  color: #777777;
+
+  font-size: 13px;
+}
+
+
+.auth-links p {
+  margin:
+    8px 0;
+}
+
+
+.auth-links a {
+  color: #111111;
+
+  font-weight: 500;
+
+  text-decoration: none;
+}
+
+
+.auth-links a:hover {
+  text-decoration: underline;
+}
+
+
+/* -------------------------------- */
+/* Existing dashboard compatibility */
+/* -------------------------------- */
+
+
+.dashboard {
+  min-height: 100vh;
+
+  padding:
+    48px 24px;
+}
+
+
+.dashboard-inner {
+  width: 100%;
+
+  max-width: 1200px;
+
+  margin: 0 auto;
+}
